@@ -1,13 +1,15 @@
-import { ArrivalData } from "../staticData/ArrivalData"
+import { SellingData } from '../staticData/SellingData';
 import '../App.css'
 
-const NewArrival = () => {
+const TopSelling = () => {
+
     return (
-        <section className="arrival-section">
-            <h2 className="title">NEW ARRIVALS</h2>
+
+        <section className='arrival-section'>
+            <h2 className="title">Top Selling</h2>
             <div className="arrival-container">
                 {
-                    ArrivalData.map((curVal) => {
+                    SellingData.map((curVal) => {
                         const { id, name, img, price, star, rate, discount, off } = curVal;
                         return (
                             <div className="arrival-card" key={id}>
@@ -40,11 +42,10 @@ const NewArrival = () => {
             <button type="button" className="arrival-btn">
                 View All
             </button>
-            <div class="line-wrapper">
-                <hr class="horizontal-line" />
-            </div>
         </section>
+
     )
+
 }
 
-export default NewArrival
+export default TopSelling

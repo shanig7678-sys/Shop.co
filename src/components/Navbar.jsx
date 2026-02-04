@@ -6,6 +6,7 @@ const Navbar = () => {
     return (
 
         <header className='header'>
+            <img src="./hamburger.svg" alt="hamburger" className="hamburger-menu" />
             <div className="logo">
                 <img src="./logo.svg" alt="logo" />
             </div>
@@ -37,6 +38,7 @@ const Navbar = () => {
                 />
             </div>
             <div className="header-icons">
+                <img src="./search.svg" alt="search" className='search' />
                 <img src="./cart.svg" alt="cart" className='cart' />
                 <img src="./user.svg" alt="user" className='user' />
             </div>

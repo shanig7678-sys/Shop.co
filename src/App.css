@@ -6,6 +6,7 @@
     --black-clr: #000;
     --search-field-clr: #F0F0F0;
 
+    --fs-12: 0.75rem;
     --fs-14: 0.875rem;
     --fs-16: 1rem;
     --fs-18: 1.125rem;
@@ -64,6 +65,14 @@ body {
     justify-content: space-between;
     padding-inline: 100px;
     margin-block: 24px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.search {
+    display: none;
 }
 
 .nav-bar {
@@ -202,7 +211,6 @@ body {
 
 /* New Arrival Section */
 
-
 .arrival-section h2 {
     font-size: 48px;
     font-weight: 700;
@@ -288,6 +296,181 @@ body {
     font-size: 12px;
 }
 
-.arrival-card:hover {
-    transform: scale(1.125);
+.arrival-btn {
+    display: block;
+    width: 218px;
+    padding: 1rem 54px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 62px;
+    background-color: transparent;
+    color: var(--black-clr);
+    margin: 36px auto;
+}
+
+.line-wrapper {
+    padding-inline: 100px;
+}
+
+.horizontal-line {
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dressStyle-section {
+    background-color: #F0F0F0;
+}
+
+.dress-container {
+    padding: 64px 64px 76px 64px;
+}
+
+/* Dress Style */
+.dressStyle-section {
+    margin-block: 80px;
+    margin-inline: 100px;
+    border-radius: 40px;
+    /* padding: 64px 64px 76px 64px; */
+}
+
+.dressStyle-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.dress-img-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+}
+
+.causal-card {
+    width: 407px;
+    height: 289px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+}
+
+.causal-title {
+    position: absolute;
+    top: 25px;
+    left: 32px;
+}
+
+.formal-card {
+    width: 684px;
+    height: 289px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.formal-title {
+    position: absolute;
+    top: 25px;
+    left: 36px;
+}
+
+.dress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.dress-img-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+}
+
+.gym-card {
+    width: 407px;
+    height: 289px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+}
+
+.gym-title {
+    position: absolute;
+    top: 25px;
+    left: 36px;
+}
+
+.party-card {
+    width: 684px;
+    height: 289px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.party-title {
+    position: absolute;
+    top: 25px;
+    left: 36px;
+}
+
+
+
+
+
+@media screen and (max-width: 390px) {
+
+    /* Top bar Section */
+    .topbar {
+        height: 34px;
+        font-size: var(--fs-12);
+        font-weight: 400;
+        padding-inline: 44px;
+        white-space: nowrap;
+    }
+
+    .cancel {
+        display: none;
+    }
+
+    .topbar p {
+        font-size: 12px;
+    }
+
+    .topbar a {
+        padding: 0;
+    }
+
+    /* Navbar */
+    .hamburger-menu {
+        display: block;
+    }
+
+    .search {
+        display: block;
+        color: black;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .search-container {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
