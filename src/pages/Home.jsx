@@ -5,6 +5,7 @@ import Brand from "../components/Brand"
 import NewArrival from "../components/NewArrival"
 import TopSelling from "../components/TopSelling"
 import DressStyle from "../components/DressStyle"
+import Footer from "../components/Footer"
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
             <NewArrival />
             <TopSelling />
             <DressStyle />
+            <Footer />
         </>
 
     )

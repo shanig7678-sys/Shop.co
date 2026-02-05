@@ -87,6 +87,11 @@ body {
     color: black;
 }
 
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
 .search-container {
     width: 456px;
     display: flex;
@@ -165,6 +170,7 @@ body {
     color: var(--white-clr);
     border: none;
     background-color: var(--black-clr);
+    cursor: pointer;
 }
 
 .hero-content button:hover {
@@ -423,9 +429,76 @@ body {
     left: 36px;
 }
 
+/* Footer  */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-input-field {
+    width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 20px;
+    padding: 36px 64px;
+}
+
+.footer-input-field h1 {
+    color: white;
+    width: 551px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer-input {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.email-field {
+    display: flex;
+    align-items: center;
+    width: 349px;
+    height: 48px;
+    background-color: white;
+    border-radius: 62px;
+    padding: 12px 1rem;
+    gap: 12px;
+}
+
+.email-field input {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1rem;
+    border: none;
+}
+
+.email-field input:focus {
+    outline: none;
+}
+
+.footer-input button {
+    width: 349px;
+    height: 46px;
+    border-radius: 62px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* logo content */
 
 
 
+
+/* Mobile Responsive */
 
 @media screen and (max-width: 390px) {
 
@@ -533,3 +606,5 @@ body {
         font-size: 1rem;
     }
 }
+
+/* End */
