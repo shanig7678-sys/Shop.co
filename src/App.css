@@ -117,6 +117,7 @@ body {
 /* Hero Section */
 
 .hero-section {
+    max-width: 1800px;
     display: flex;
     flex-direction: column;
     background-image: url(./heroSection.svg);
