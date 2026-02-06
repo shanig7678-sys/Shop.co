@@ -435,6 +435,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    padding-top: 100px;
 }
 
 .footer-input-field {
@@ -445,6 +447,8 @@ footer {
     background-color: black;
     border-radius: 20px;
     padding: 36px 64px;
+    position: absolute;
+    top: 0px;
 }
 
 .footer-input-field h1 {
@@ -496,8 +500,17 @@ footer {
 .footer-content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 114px;
+    background-color: #F0F0F0;
+    padding-top: 140px;
+    padding-bottom: 50px;
 }
 
+.main-footer {
+    width: 100%;
+    background-color: #F0F0F0;
+}
 
 /* logo content */
 .logo-column {
@@ -537,12 +550,58 @@ footer {
 
 
 
+.logo-vertical-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid hsla(0, 0%, 0%, 0.6);
+    padding: 20px 100px 81px 100px;
+}
+
+.card {
+    width: 46px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.logo-vertical-footer .footer-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 
 
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.column p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}
+
+.column h1 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.column-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
 
 
-
-
+.logo-vertical-footer p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+}
 
 
 
