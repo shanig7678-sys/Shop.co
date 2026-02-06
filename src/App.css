@@ -493,8 +493,59 @@ footer {
     font-weight: 500;
 }
 
+.footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* logo content */
+.logo-column {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 35px;
+}
+
+.logo-column p {
+    width: 248px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+}
+
+.social-media-icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.circle {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #CCCCCC;
+}
+
+#facebook {
+    background-color: black;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
